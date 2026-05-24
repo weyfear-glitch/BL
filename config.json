@@ -1,0 +1,19 @@
+{
+  "token": "TON TOKEN HERE",
+  "logChannelId": "LOG CHANNEL ID",
+  "adminRoleId": "ADMIN ROLE ID",
+  "protection": {
+    "antiRaid": {
+      "enabled": true,
+      "joinThreshold": 5,
+      "joinWindow": 10000,
+      "action": "kick"
+    },
+    "antiNuke": {
+      "enabled": true,
+      "channelDeleteThreshold": 3,
+      "roleDeleteThreshold": 3,
+      "timeWindow": 10000
+    }
+  }
+}
